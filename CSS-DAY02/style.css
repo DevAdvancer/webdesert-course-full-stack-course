@@ -1,0 +1,34 @@
+/* Universal Selector*/
+* {
+  margin: 0;
+  padding: 0;
+  background: #2A7B9B;
+  background: linear-gradient(0deg, rgba(42, 123, 155, 1) 16%, rgba(134, 224, 207, 1) 27%, rgba(129, 224, 213, 1) 53%, rgba(128, 224, 215, 1) 69%, rgba(237, 221, 83, 1) 92%);
+  border: 1px solid black;
+  border-radius: 31% 69% 70% 30% / 58% 55% 45% 42% ;
+}
+
+.container {
+  /* background-color: yellow; */
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: pink;
+  height: 35px;
+}
+
+.box-content {
+  color: red;
+}
+
+#box-content-1 {
+  color: blue;
+}
