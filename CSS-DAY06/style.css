@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  border: 2px solid black;
+  margin: auto;
+  padding: 10px;
+}
+
+.child {
+  border: 2px solid black;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+#px {
+  width: 100px;
+  font-size: 50px;
+}
+
+#rm {
+  width: 10rem;
+  font-size: 1.5rem;
+  /* 1rem = 16px by default */
+}
+
+#em {
+  width: 10em;
+  font-size: 2.5em;
+  /* If the font-size is 16px, then 1em = 16px */
+}
+#pt {
+  width: 100pt;
+  font-size: 10pt;
+  /* 1pt = 1.333px, so 100pt = 133.3px */
+}
