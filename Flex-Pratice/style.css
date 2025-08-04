@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: start;
+  height: 100vh;
+  padding: 30px;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.parent {
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  h5 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 5px;
+    color: rgb(82, 82, 82);
+  }
+}
